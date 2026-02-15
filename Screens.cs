@@ -1,16 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ascii_terminal_game
 {
-    internal class Screens
+    public static class Screens
     {
-        internal static void DrawTitle()
+        public static void DrawTitle()
         {
-            throw new NotImplementedException();
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("╔══════════════════════════════════════╗");
+            Console.WriteLine("║  ███████╗███████╗██████╗ ███╗   ███╗ ║");
+            Console.WriteLine("║  ██╔════╝██╔════╝██╔══██╗████╗ ████║ ║");
+            Console.WriteLine("║  █████╗  █████╗  ██████╔╝██╔████╔██║ ║");
+            Console.WriteLine("║  ██╔══╝  ██╔══╝  ██╔══██╗██║╚██╔╝██║ ║");
+            Console.WriteLine("║  ██║     ███████╗██║  ██║██║ ╚═╝ ██║ ║");
+            Console.WriteLine("║  ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝         ║");
+            Console.WriteLine("╚══════════════════════════════════════╝");
+            Console.ResetColor();
+            Console.WriteLine();
         }
 
         internal static void ShowCredits()
