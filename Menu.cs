@@ -8,5 +8,9 @@ namespace ascii_terminal_game
 {
     internal class Menu
     {
+        internal static void ShowMainMenu()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

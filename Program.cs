@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace ascii_terminal_game
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "TERMINAL ASCII GAME";  
+            Console.CursorVisible = false;
+
+            Menu.ShowMainMenu();
+        }
+    }
+}
