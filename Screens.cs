@@ -8,5 +8,19 @@ namespace ascii_terminal_game
 {
     internal class Screens
     {
+        internal static void DrawTitle()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static void ShowCredits()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static void ShowHelp()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

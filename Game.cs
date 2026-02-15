@@ -8,5 +8,9 @@ namespace ascii_terminal_game
 {
     internal class Game
     {
+        internal static void Start()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
