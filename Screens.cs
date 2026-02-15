@@ -21,12 +21,28 @@ namespace ascii_terminal_game
 
         internal static void ShowCredits()
         {
-            throw new NotImplementedException();
-        }
+            Console.Clear();
+            Console.WriteLine("CREDITS");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("ASCII Terminal Game");
+            Console.WriteLine("Developed in c# .NET");
+            Console.WriteLine("Author: your Name");
+            Console.WriteLine("\npress any key to return... ");
+            Console.ReadKey();
+            Menu.ShowMainMenu();
+        }   
 
-        internal static void ShowHelp()
+        public static void ShowHelp()
         {
-            throw new NotImplementedException();
+            Console.Clear();
+            Console.WriteLine("HELP");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Use arrow keys to move");
+            Console.WriteLine("avoid obstacles");
+            Console.WriteLine("Press ESC to EXIT game");
+            Console.WriteLine("\npress any key to return ...");
+            Console.ReadKey();
+            Menu.ShowMainMenu();
         }
     }
 }
