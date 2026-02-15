@@ -24,13 +24,41 @@ namespace ascii_terminal_game
 
             Menu.ShowMainMenu();
         }
-        private static void DrawGame()
+        static void DrawGame()
         {
-            throw new NotImplementedException();
+            Console.Clear();
+
+            for (int y = 0;  y < height;  y++)
+            {
+                for (int x = 0; x < width; x++)
+                {
+                    if (x == player.X && y == player.Y)
+                        Console.Write("@");
+                    else
+                        Console.Write("."); 
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine("\nESC to EXIT"); 
         }
-        private static void UpdatePlayer(ConsoleKey key)
+        static void UpdatePlayer(ConsoleKey key)
         {
-            throw new NotImplementedException();
+            switch (key)
+            {
+                case ConsoleKey.LeftArrow:
+                    if (player.X > 0) player.X--;
+                    break;
+                case ConsoleKey.RightArrow:
+                    if (player.X < width - 1) player.X++;
+                    break;
+                case ConsoleKey.UpArrow:
+                    if (player.Y > 0) player.Y--;
+                    break;
+                case ConsoleKey.DownArrow:
+                    if (player.Y < height - 1) player.Y++;
+                    break;
+            }
         }
     }
-}   
+}      
