@@ -44,5 +44,24 @@ namespace ascii_terminal_game
             Console.ReadKey();
             Menu.ShowMainMenu();
         }
-    }
+        public static void GameOver(int score)
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
+
+            Console.WriteLine(" ██████╗  █████╗ ███╗   ███╗███████╗");
+            Console.WriteLine("██╔════╝ ██╔══██╗████╗ ████║██╔════╝");
+            Console.WriteLine("██║  ███╗███████║██╔████╔██║█████╗  ");
+            Console.WriteLine("██║   ██║██╔══██║██║╚██╔╝██║██╔══╝  ");
+            Console.WriteLine("╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗");
+            Console.WriteLine(" ╚═════╝ ╚═╝  ╚═╝╚═╝         ╚══════╝");
+
+            Console.ResetColor();
+            Console.WriteLine($"\nFINAL SCORE: {score}");
+            Console.WriteLine("\nPress any key to return...");
+            Console.ReadKey();
+
+            Menu.ShowMainMenu();
+        }
+    }   
 }

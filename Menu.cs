@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AsciiTerminalGame;
+using System;
 
 namespace ascii_terminal_game
 {
