@@ -3,9 +3,11 @@
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/315c65a5-2199-4d4a-b165-1b5234b9f352" />    
 
-<img width="2551" height="1079" alt="image" src="https://github.com/user-attachments/assets/8e847d84-dcd4-4c93-b35f-208344954b53" />    
+<img width="1280" height="1079" alt="image" src="https://github.com/user-attachments/assets/60327161-e4f1-418e-b0fd-1e9a44839c56" />    
 
-<img width="1283" height="1079" alt="image" src="https://github.com/user-attachments/assets/dfe7e10f-367e-4922-a0d6-7a9612d13ca6" />    
+<img width="2551" height="1079" alt="image" src="https://github.com/user-attachments/assets/8e847d84-dcd4-4c93-b35f-208344954b53" />        
+
+<img width="1283" height="1079" alt="image" src="https://github.com/user-attachments/assets/dfe7e10f-367e-4922-a0d6-7a9612d13ca6" />        
 
 Juego de consola estilo **ASCII / terminal**, con **menú interactivo**, inspirado en los clásicos juegos retro en modo texto.
 Este proyecto es un **juego completo en .NET (C# – Console App)**, listo para ejecutarse en **Visual Studio 2022** o **JetBrains Rider**.
